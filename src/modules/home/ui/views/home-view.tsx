@@ -34,7 +34,7 @@ export const HomeView = () => {
             },
           })
         }
-        className="bg-gray-800 text-white p-2 rounded-xl"
+        className="  p-2 rounded-xl"
       >
         Sign Out
       </Button>
