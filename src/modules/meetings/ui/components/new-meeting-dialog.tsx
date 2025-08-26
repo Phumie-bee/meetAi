@@ -11,7 +11,7 @@ const NewMeetingDialog = ({ open, onOpenChange }: NewMeetingDialogProps) => {
   const router = useRouter();
   return (
     <ResponsiveDialog
-      title="New Agent"
+      title="New Meeting"
       description="Create a new meeting"
       open={open}
       onOpenChange={onOpenChange}
@@ -21,6 +21,7 @@ const NewMeetingDialog = ({ open, onOpenChange }: NewMeetingDialogProps) => {
           onOpenChange(false);
           router.push("/meetings/${id}");
         }}
+        onCancel={() => onOpenChange(false)}
       />
     </ResponsiveDialog>
   );
