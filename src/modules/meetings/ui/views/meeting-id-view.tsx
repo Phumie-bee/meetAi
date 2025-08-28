@@ -12,7 +12,6 @@ import { useRouter } from "next/navigation";
 import { useConfirm } from "../../hooks/use-confirm";
 import UpdateMeetingDialog from "../components/update-meeting-dialog ";
 import { useState } from "react";
-import { Divide } from "lucide-react";
 import { UpcomingState } from "../components/upcoming-state";
 import { ActiveState } from "../components/active-state";
 import { CancelledState } from "../components/cancelled-state";
